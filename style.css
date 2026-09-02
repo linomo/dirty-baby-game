@@ -162,6 +162,27 @@ body {
   z-index: 5; /* 蓋在 .reveal-mask 上面，看階段時寶寶圖要保持清楚 */
 }
 
+/* 按到假icon的吐槽跑馬燈，飄在寶寶背後，純裝飾用 */
+.icon-joke-marquee {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  overflow: hidden;
+  white-space: nowrap;
+  color: #ff5c5c;
+  font-weight: 800;
+  font-size: 20px;
+  z-index: 4; /* 蓋在背景海報上面，寶寶圖下面 */
+  pointer-events: none;
+}
+.icon-joke-marquee span {
+  display: inline-block;
+  padding-left: 100%;
+  animation: marquee 3s linear;
+}
+
 /* 階段一：看寶寶要幹嘛時，除了寶寶圖跟序列格子之外全部蓋上半透明黃色蒙版（視覺+操作都鎖住） */
 .reveal-mask {
   position: absolute;
