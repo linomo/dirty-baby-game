@@ -42,4 +42,4 @@ export const SPLASH_FADE_MS = 600;
 
 // 背景音樂：全程循環播放的音量、淡入時間（毫秒）
 export const BGM_VOLUME = 0.5;
-export const BGM_FADE_IN_MS = 3000;
+export const BGM_FADE_IN_MS = 1000;
