@@ -10,7 +10,8 @@ const OUTRO_LINKS = [
 
 const OUTRO_CREDITS = [
   '音樂：Dirty Baby・達康.come・何瑞康 RayKang',
-  '插畫・遊戲企劃：BB　程式開發：Claude',
+  '插畫・遊戲企劃：BB',
+  '程式開發：Claude',
   '特別感謝：達達寶寶',
 ];
 
