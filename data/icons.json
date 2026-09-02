@@ -1,0 +1,6 @@
+[
+  { "id": "bottle", "emoji": "🍼", "position": "tl", "isReal": false },
+  { "id": "camera", "emoji": "📷", "position": "tr", "isReal": true, "ending": "photo" },
+  { "id": "poop",   "emoji": "💩", "position": "bl", "isReal": false },
+  { "id": "cat",    "emoji": "🐱", "position": "br", "isReal": false }
+]

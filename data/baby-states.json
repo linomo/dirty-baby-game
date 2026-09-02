@@ -1,0 +1,7 @@
+{
+  "idle":      { "image": "assets/baby/baby-idle.png",    "animation": "breathe" },
+  "revealing": { "image": "assets/baby/baby-idle.png",    "animation": "fuss" },
+  "answering": { "image": "assets/baby/baby-idle.png",    "animation": "beat" },
+  "success":   { "image": "assets/baby/baby-success.png", "animation": "squash" },
+  "fail":      { "image": "assets/baby/baby-fail.png",    "animation": "shake" }
+}

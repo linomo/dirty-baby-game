@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "sequence": ["kiss", "kiss", "me", "look", "pat", "me", "me"]
+  },
+  {
+    "id": 2,
+    "sequence": ["hug", "hug", "me", "pat", "pat", "pat", "pat"]
+  },
+  {
+    "id": 3,
+    "sequence": ["look", "me", "me", "look", "pat", "kiss", "me"]
+  },
+  {
+    "id": 4,
+    "sequence": ["me", "kiss", "me", "look", "me", "hug", "me"]
+  },
+  {
+    "id": 5,
+    "sequence": ["look", "kiss", "look", "look", "me", "me", "me"]
+  }
+]
