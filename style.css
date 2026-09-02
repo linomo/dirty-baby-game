@@ -1,7 +1,18 @@
-* { box-sizing: border-box; margin: 0; padding: 0; }
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  touch-action: manipulation; /* 關掉手機的雙擊放大手勢 */
+  -webkit-tap-highlight-color: transparent; /* 關掉點擊時的灰色閃爍 */
+}
+
+html, body {
+  overscroll-behavior: none; /* 關掉手機邊界的橡皮筋彈動效果 */
+}
 
 body {
   min-height: 100vh;
+  min-height: 100dvh; /* 手機網址列縮合/展開時，畫面不會跟著跳動 */
   display: flex;
   align-items: center;
   justify-content: center;
