@@ -36,8 +36,7 @@ export const CORRECT_FLASH_MS = 350;
 // 三種結局畫面停留多久（毫秒）之後自動轉黑幕，帶出演出資訊
 export const OUTRO_DELAY_MS = 3000;
 
-// 開場入場動畫：粉紅擋板停留多久、淡出要多久（毫秒）
-export const SPLASH_HOLD_MS = 1600;
+// 開場擋板：點下「開始照顧寶寶」之後，淡出要多久（毫秒）
 export const SPLASH_FADE_MS = 600;
 
 // 背景音樂：全程循環播放的音量、淡入時間（毫秒）
