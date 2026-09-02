@@ -29,8 +29,18 @@ export class IconPanel {
           // 假icon：只給一點點回饋，讓玩家覺得「好像有反應」但沒有實際效果
           el.classList.add('shake-once');
           setTimeout(() => el.classList.remove('shake-once'), 300);
+          this.spawnJokeMarquee();
         }
       };
     });
+  }
+
+  // 按到假icon時，寶寶背後飄過一句吐槽用的跑馬燈，純裝飾、不影響任何遊戲狀態
+  spawnJokeMarquee() {
+    const marquee = document.createElement('div');
+    marquee.className = 'icon-joke-marquee';
+    marquee.innerHTML = '<span>沒人在乎　　沒人在乎　　沒人在乎</span>';
+    this.container.appendChild(marquee);
+    setTimeout(() => marquee.remove(), 3000);
   }
 }

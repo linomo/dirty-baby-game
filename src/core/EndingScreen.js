@@ -14,7 +14,7 @@ const OUTRO_CREDITS = [
   '特別感謝：達達寶寶',
 ];
 
-const OUTRO_COPYRIGHT = '℗ 有笑果漫才創意有限公司';
+const OUTRO_COPYRIGHT = '℗ 有笑果漫才創意有限公司　©草莓Bberry城堡的角落';
 
 /**
  * 三種結局的全螢幕畫面（蓋在 .stage 上面）。
