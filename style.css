@@ -6,6 +6,10 @@
   -webkit-tap-highlight-color: transparent; /* 關掉點擊時的灰色閃爍 */
 }
 
+:root {
+  --heart-cursor: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cpath fill='%23e8887a' d='M12 21s-6.5-4.35-9.5-8.5C.5 9.5 1.5 5 5.5 4 8 3.4 10 4.5 12 7c2-2.5 4-3.6 6.5-3 4 1 5 5.5 3 8.5C18.5 16.65 12 21 12 21z'/%3E%3C/svg%3E") 12 12, pointer;
+}
+
 html, body {
   overscroll-behavior: none; /* 關掉手機邊界的橡皮筋彈動效果 */
 }
@@ -62,6 +66,36 @@ body {
   font-weight: 700;
   letter-spacing: 3px;
   fill: #fbf5e8;
+}
+/* 疊在鏤空按鈕上面的透明按鈕，實際負責接收點擊，視覺完全由底下的 SVG 鏤空負責 */
+.splash-start-btn {
+  position: absolute;
+  left: 50%;
+  top: 59%;
+  transform: translate(-50%, -50%);
+  padding: 12px 16px;
+  border: 2px solid #fbf5e8;
+  border-radius: 14px;
+  background: #BF878C;
+  color: #fbf5e8;
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  text-align: justify;
+  text-align-last: justify;
+  cursor: pointer;
+  box-shadow: 0 4px 0 rgba(107, 46, 53, 0.35);
+}
+.splash-start-btn:hover,
+.vbtn:hover,
+.deco-icon:hover,
+.ending-restart-btn:hover,
+.outro-restart-icon:hover {
+  cursor: var(--heart-cursor);
+}
+.splash-start-btn:active {
+  transform: translate(-50%, calc(-50% + 3px));
+  box-shadow: 0 1px 0 rgba(107, 46, 53, 0.35);
 }
 
 /* 頂部狀態列 */
