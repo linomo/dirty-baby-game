@@ -113,7 +113,10 @@ async function init() {
   }
 
   // 7. 開場擋板（HTML 裡已經先畫出來了）停留一下再淡出，才開始第一輪
-  const splash = new SplashScreen({ el: document.getElementById('splash') });
+  const splash = new SplashScreen({
+    el: document.getElementById('splash'),
+    buttonEl: document.getElementById('splashStartBtn'),
+  });
   await splash.hide();
 
   await startRound();
